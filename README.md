@@ -41,3 +41,27 @@ npm run build
 ```
 yarn build
 ```
+## Базовые коды
+###Класс EventEmitter
+Реализует паттерн «Наблюдатель» и позволяет подписываться на события или слушать события по шаблону.
+
+###Класс Api 
+Отвечает за отправку запросов  и получение ответов от сервера.
+
+###Класс Component
+Позволяет работать с классами DOM-элементов.
+
+##Интерфейсы данных
+````
+interface IItem{
+itemCategory: string;
+itemName: string
+itemDescription: string;
+itemImage:string
+itemPrice: number;
+}
+interface ICart{
+items: IItems[];
+totalCost: number;
+}
+````
