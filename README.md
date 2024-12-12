@@ -53,6 +53,7 @@ yarn build
 
 ## Интерфейсы данных
 ````
+// товар
 interface IItem{
 itemCategory: string;
 itemName: string
@@ -60,6 +61,7 @@ itemDescription: string;
 itemImage:string
 itemPrice: number;
 }
+//корзина
 interface ICart{
 items: IItems[];
 totalCost: number;
