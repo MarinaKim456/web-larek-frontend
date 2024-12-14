@@ -63,7 +63,7 @@ itemPrice: number;
 }
 //корзина
 interface ICart{
-items: IItems[];
+items: IItem[];
 totalCost: number;
 }
 ````
