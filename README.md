@@ -67,12 +67,12 @@ deleteFromCart(itemId): void - удаление товара из корзины
 addPhone(): void - добавить номер телефона,\
 addEmail(): void - добавить email,\
 addAddress(): void - добавить адрес доставки,\
-checkValidation(data: Record<typeof IUserInfo, string>): boolean
+checkValidation(data: Record<typeof IUserInfo, string>): boolean\
 
 ## Слой отображения
 
 ### Класс Page
-Отвечает за отображение комнонентов главной страницы.
+Отвечает за отображение комнонентов главной страницы.\
 Поля:\
 logo,\
 cartIcon - иконка корзины,\
@@ -87,7 +87,7 @@ image,\
 description,\
 price.\
 Методы:\
-setData(itemData: IItem):void - заполняет атрибуты элементов карточки
+setData(itemData: IItem):void - заполняет атрибуты элементов карточки\
 addToCart() - добавляет товар в массив корзины и вызывает событие изменения массива,
 
 ### Класс Cart:
@@ -108,7 +108,7 @@ address: string.\
 addPhone() - добавить номер телефона,\
 addEmail() - добавить email,\
 addAddress() - добавить адрес доставки,\
-checkValidation(data: Record<typeof IUserInfo, string>)\
+checkValidation(data: Record<typeof IUserInfo, string>) \
 setUserData(userData: IUser): void - устанавливает данные в элементы разметки формы
 
 ### Класс Modal:
