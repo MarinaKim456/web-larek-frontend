@@ -137,7 +137,12 @@ phone: HTMLInputElement,\
 email: HTMLInputElement.\
 
 ### Класс Success:
-Класс для отображения окна с уведомлением об успешном оформлении заказа.
+Класс для отображения окна с уведомлением об успешном оформлении заказа.\
+Поля:\
+sucessIcon: HTMLImageElement - иконка успешного выолнения заказа\
+successTitle: HTMLElement - заголовок успешного выолнения заказа\
+successDescription: HTMLElement - текст успешного выолнения заказа\
+sucessButton: HTMLButtonElement - кнопка закрытия окна Success\
 
 ## Презентер
 EventEmitter выступает в роли Представителя (Presenter) - связывает модели данных с \
